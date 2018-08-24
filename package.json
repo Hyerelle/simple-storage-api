@@ -1,0 +1,19 @@
+{
+  "name": "simple-storage-api",
+  "version": "1.0.0",
+  "description": "A simple nodejs server that exposes a tiny / basic API (3 endpoints) in order to persist data (by default in .json files)",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "lowdb": "^1.0.0",
+    "polka": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "keywords": [],
+  "author": "Quentin LEFEVRE",
+  "license": "ISC"
+}
