@@ -1,7 +1,9 @@
 /**
- * Get the wrapper connector
+ * Get the database wrapper from the 'WRAPPER' environment variable
+ *  - If not set : default is 'lowdb'
+ *  - If set and not wrapper is not found : script stops
  */
-const wrapper = require("./lowdb-wrapper");
+const wrapper = require("./wrappers")(process.env.WRAPPER);
 
 /**
  * Get the port number value from the 'PORT' environment variable
