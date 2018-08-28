@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "serve": "node index.js"
+    "serve": "node ./src/server.js"
   },
   "keywords": [],
   "author": "Quentin LEFEVRE",
